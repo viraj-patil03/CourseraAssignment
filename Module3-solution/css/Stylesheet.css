@@ -1,0 +1,96 @@
+body{         /* body desgin */
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    background-color: seashell;
+}
+
+#header-nav{    /* navbar design*/
+    background-color:lightgray;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+.navbar-brand{    /*navbar brand design*/
+    padding-top: 15px;
+}
+.navbar-brand h1{   /*navbar heading design*/
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #222;
+    padding-bottom:10px;
+    margin-top:0;
+    margin-bottom: 0;
+    line-height: .7;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {    /*navbar heading hover effect*/
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {   /*toggle bar design*/
+    border: 2px solid black;
+    clear: both;
+    margin-top: -30px;
+}
+
+h2{     /*header of the body design*/
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  margin-bottom: 30px;
+}
+
+#Menu{      /*divison body design*/
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+#Menu h3{   /*divison body header design*/
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-shadow: 0.5px 0.5px black;
+}
+
+#Menu p{    /*division body header paragraph*/
+  padding: 10px;
+  font-size: 1.3 em;
+  font-weight: bold;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text*/ 
+      border:2px solid black;
+      color: black;
+  }
+
+  #nav-list{  /*navigation list design for mobile*/
+    font-size: 1.2em;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
